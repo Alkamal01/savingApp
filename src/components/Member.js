@@ -1,4 +1,3 @@
-// src/components/Member.js
 import React from 'react';
 
 const Member = ({ member, withdrawMember }) => {
