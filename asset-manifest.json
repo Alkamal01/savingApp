@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/savings-group-app/static/css/main.da7ec0d2.css",
+    "main.js": "/savings-group-app/static/js/main.1fed3618.js",
+    "static/js/453.8a42f9ee.chunk.js": "/savings-group-app/static/js/453.8a42f9ee.chunk.js",
+    "index.html": "/savings-group-app/index.html",
+    "main.da7ec0d2.css.map": "/savings-group-app/static/css/main.da7ec0d2.css.map",
+    "main.1fed3618.js.map": "/savings-group-app/static/js/main.1fed3618.js.map",
+    "453.8a42f9ee.chunk.js.map": "/savings-group-app/static/js/453.8a42f9ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da7ec0d2.css",
+    "static/js/main.1fed3618.js"
+  ]
+}
