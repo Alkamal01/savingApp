@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+// src/App.js
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Registration from './components/Registration';
+import IndividualDashboard from './components/PDashboard';
+import GeneralDashboard from './components/Dashboard';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [members, setMembers] = useState(() => {
+    const savedMembers = localStorage.getItem('members');
+    return savedMembers ? JSON.parse(savedMembers) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem('members', JSON.stringify(members));
+  }, [members]);
+
+  const addMember = (newMember) => {
+    setMembers((prevMembers) => [...prevMembers, newMember]);
+  };
+
+  const removeMember = (name) => {
+    setMembers((prevMembers) => prevMembers.filter((member) => member.name !== name));
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Registration addMember={addMember} />} />
+        <Route path="/dashboard/:name" element={<IndividualDashboard members={members} removeMember={removeMember} />} />
+        <Route path="/general-dashboard" element={<GeneralDashboard members={members} />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
