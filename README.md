@@ -7,7 +7,7 @@ This is a web application for managing a savings group of students, allowing the
 - Student Registration
 - Savings Dashboard
 - Tier Validation
-- Withdrawal and Membership Management
+- Withdrawal 
 - User-friendly Interface
 
 ## Tech Stack
@@ -20,7 +20,7 @@ This is a web application for managing a savings group of students, allowing the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<username>/savings-group.git
+   git clone https://github.com/Alkamal01/savingApp.git
    cd savings-group
    
 2. Install dependencies:
