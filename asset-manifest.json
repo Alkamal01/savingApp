@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/savings-group-app/static/css/main.da7ec0d2.css",
-    "main.js": "/savings-group-app/static/js/main.1fed3618.js",
-    "static/js/453.8a42f9ee.chunk.js": "/savings-group-app/static/js/453.8a42f9ee.chunk.js",
-    "index.html": "/savings-group-app/index.html",
-    "main.da7ec0d2.css.map": "/savings-group-app/static/css/main.da7ec0d2.css.map",
-    "main.1fed3618.js.map": "/savings-group-app/static/js/main.1fed3618.js.map",
-    "453.8a42f9ee.chunk.js.map": "/savings-group-app/static/js/453.8a42f9ee.chunk.js.map"
+    "main.css": "/savingApp/static/css/main.da7ec0d2.css",
+    "main.js": "/savingApp/static/js/main.69ad6a73.js",
+    "static/js/453.cc67b017.chunk.js": "/savingApp/static/js/453.cc67b017.chunk.js",
+    "index.html": "/savingApp/index.html",
+    "main.da7ec0d2.css.map": "/savingApp/static/css/main.da7ec0d2.css.map",
+    "main.69ad6a73.js.map": "/savingApp/static/js/main.69ad6a73.js.map",
+    "453.cc67b017.chunk.js.map": "/savingApp/static/js/453.cc67b017.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da7ec0d2.css",
-    "static/js/main.1fed3618.js"
+    "static/js/main.69ad6a73.js"
   ]
 }
